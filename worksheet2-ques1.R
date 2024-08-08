@@ -1,0 +1,12 @@
+fact<-function(num){
+  num=as.integer(num)
+  if(num>1){
+  return(num*fact(num-1))}
+  else{
+    return(1)
+  }
+}
+fact(7)
+fact(78)
+factorial(78)
+fact(78)==factorial(78)
